@@ -78,7 +78,7 @@ if __name__ == '__main__':
             context += "【账号: " + email + ", " + message_status  +", 剩余: " + message_days + "】 "
 
         # 推送内容 
-        title = f'Glados签到情况：成功{success}, 失败{fail}, 重复{repeats}'
+        title = f'Glados签到情况: 成功{success}, 失败{fail}, 重复{repeats}'
         print("Send Content:" + "\n", context)
         
     else:
