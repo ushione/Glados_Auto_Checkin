@@ -30,7 +30,7 @@
 
 - 多账号请在 `COOKIES` 中 添加多个 `cookies` 中间使用 `&`连接即可。（例如： `c1&c3&c3...`）
 
-3. 手机推送（非必须）
+3. 手机推送（非必须，当前代码已适配 PushDeer）
 
 - 添加1个`repository secret`，命名为`SENDKEY`，其值对应 PushDeer key: [获取地址]([http://www.pushplus.plus](https://www.pushdeer.com/product.html))。
 
